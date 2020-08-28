@@ -13,8 +13,14 @@ Initialize an empty Git repository
     ```cmd
 
         git init
-         
+
     ```
+    
+    ```javascript
+if (isAwesome){
+  return true
+}
+```
 
 ## Add :
 
