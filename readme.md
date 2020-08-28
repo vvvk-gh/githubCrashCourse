@@ -71,3 +71,11 @@ creates a new branch / switches to a new branch
     git checkout <branch name>
 ```
 
+## Branch
+
+Shows the current branch you are on in / shows all the branches
+
+```cmd
+    git branch 
+    git branch -a
+```
