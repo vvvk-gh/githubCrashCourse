@@ -55,7 +55,8 @@ status shows/tracks the status of the file
 ```cmd
     git status
 ```
-##Log 
+
+## Log 
 Shows the history of the commits
 
 ```cmd
