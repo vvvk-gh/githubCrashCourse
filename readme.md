@@ -48,3 +48,16 @@ If you use upstream for the first git push, from the next we only use
 ``` 
 and you can avoid writing long commands like git push origin master
 where origin : remote name , master : branch name
+
+## Status
+status shows/tracks the status of the file
+
+```cmd
+    git status
+```
+##Log 
+Shows the history of the commits
+
+```cmd
+    git log
+```
