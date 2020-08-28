@@ -3,14 +3,14 @@
 ## Clone 
 Clone the existing remote repository code to local directory 
 
-```git
+```cmd
     git clone <git repo url>
  ```
 
 ## Init :
 Initialize an empty Git repository
     
-```git
+```cmd
 git init
 ```
 
@@ -43,7 +43,9 @@ push all the commited files to the remote repository
     
 If you use upstream for the first git push, from the next we only use
 
-```git
+```cmd
      git push
 ``` 
 and you can avoid writing long commands like git push origin master
+where origin : remote name
+master : branch name
