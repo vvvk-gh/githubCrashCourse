@@ -90,6 +90,6 @@ Shows the current branch you are on in / shows all the branches
 
 Pulls all the commited code from the mentioned branch to your current repository
 
-``cmd
+```cmd
     git pull <branchname>
-``
+```
