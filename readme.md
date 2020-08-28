@@ -29,7 +29,8 @@ commits the changes / staged files into commited stage
     
 ```cmd
     git commit -m "heading"
-    git commit -m "heading" -m "Commit description"   
+    git commit -m "heading" -m "Commit description"
+    git commit -am "heading" // addes the modified files and commit them   
 ```
 
 ## Push :
