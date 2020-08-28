@@ -93,3 +93,11 @@ Pulls all the commited code from the mentioned branch to your current repository
 ```cmd
     git pull <branchname>
 ```
+
+## Merge
+
+Merges the one branch committed code into an other branch 
+
+```cmd
+    git merge <branchname>
+```
