@@ -68,7 +68,8 @@ Shows the history of commits
 creates a new branch / switches to a new branch 
 
 ```cmd
-    git checkout <branch name>
+    git checkout -b <branch name>  //new branch
+    git checkout <branch name> // switch branch
 ```
 
 ## Branch
@@ -76,6 +77,6 @@ creates a new branch / switches to a new branch
 Shows the current branch you are on in / shows all the branches
 
 ```cmd
-    git branch 
-    git branch -a
+    git branch
+    git branch -a //for all branches
 ```
