@@ -57,8 +57,17 @@ status shows/tracks the status of the file
 ```
 
 ## Log 
-Shows the history of the commits
+Shows the history of commits
 
 ```cmd
     git log
 ```
+
+##Checkout
+
+creates a new branch / switches to a new branch 
+
+```cmd
+    git checkout <branch name>
+```
+
