@@ -77,8 +77,9 @@ creates a new branch / switches to a new branch
 Shows the current branch you are on in / shows all the branches
 
 ```cmd
-    git branch
+    git branch //return current branch
     git branch -a //for all branches
+    git branch -d <branchname> //deletes that branch
 ```
 ## Diff
 
@@ -96,7 +97,8 @@ Pulls all the commited code from the mentioned branch to your current repository
 
 ## Merge
 
-Merges the one branch committed code into an other branch 
+Merges the one branch committed code into an other branche 
+ 
 
 ```cmd
     git merge <branchname>
