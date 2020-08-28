@@ -10,7 +10,7 @@ Clone the existing remote repository code to local directory
 ## Init :
 Initialize an empty Git repository
     
-```cmd
+```git
 git init
 ```
 
@@ -18,42 +18,32 @@ git init
 
 adds the modified file/files to the staging 
     
-    ```cmd
-
-        git add <file name>
-        git add .
-
-    ```
+```cmd
+    git add <file name>
+    git add .
+```
 
 ## Commit : 
 
 commits the changes / staged files into commited stage
     
-    ```cmd
-       
-        git commit -m "heading"
-        git commit -m "heading" -m "Commit description"
-   
-    ```
-
+```cmd
+    git commit -m "heading"
+    git commit -m "heading" -m "Commit description"   
+```
 
 ## Push :
 
 push all the commited files to the remote repository
 
-
-   ```cmd
-        
-        git push -u origin master
-        -u : upstream 
-
-    ```
+```cmd
+     git push -u origin master
+     -u : upstream 
+```
     
 If you use upstream for the first git push, from the next we only use
 
-    ```cmd
-
-       git push
-
-    ``` 
+```git
+     git push
+``` 
 and you can avoid writing long commands like git push origin master
