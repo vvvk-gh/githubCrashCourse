@@ -63,7 +63,7 @@ Shows the history of commits
     git log
 ```
 
-##Checkout
+## Checkout
 
 creates a new branch / switches to a new branch 
 
