@@ -89,6 +89,7 @@ Shows the current branch you are on in / shows all the branches
 ## Pull 
 
 Pulls all the commited code from the mentioned branch to your current repository
+
 ``cmd
     git pull <branchname>
 ``
