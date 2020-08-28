@@ -55,11 +55,11 @@
 
     ```
     
-    first push if you use upstream from the next push we only use
+     If you use upstream for the first git push, from the next we only use
 
     ```git
 
        git push
-        
+
     ``` 
     and avoid writing origin master
