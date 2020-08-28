@@ -1,19 +1,22 @@
 # Git Basics Commands
 
-## Clone : 
+## Clone 
+  
     Clone the existing remote repository code to local directory 
    
     ```git
         git clone <git repo url>
     ```
-## Init : 
+## Init :
+
     Initialize an empty Git repository
     
     ```git
         git init 
     ```
 
-## Add : 
+## Add :
+
     adds the modified file/files to the staging 
     
     ```git
@@ -21,6 +24,7 @@
         git add .  
     ```
 ## Commit : 
+
     commits the changes / staged files into commited stage
     
     ```git
@@ -28,6 +32,7 @@
         git commit -m "heading" -m "Commit description"
     ```
 ## Push :
+
     push all the commited files to the remote repository
 
    ```git
