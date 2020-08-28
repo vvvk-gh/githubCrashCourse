@@ -2,10 +2,10 @@
 
 ## Clone 
 Clone the existing remote repository code to local directory 
-   
-    ```git
-        git clone <git repo url>
-    ```
+
+```git
+    git clone <git repo url>
+ ```
 
 ## Init :
 Initialize an empty Git repository
