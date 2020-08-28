@@ -1,28 +1,22 @@
 # Git Basics Commands
 
 ## Clone 
-  
-    Clone the existing remote repository code to local directory 
+Clone the existing remote repository code to local directory 
    
     ```git
-
         git clone <git repo url>
-
     ```
 
 ## Init :
-
-    Initialize an empty Git repository
+Initialize an empty Git repository
     
     ```git
-
         git init 
-
     ```
 
 ## Add :
 
-    adds the modified file/files to the staging 
+adds the modified file/files to the staging 
     
     ```git
 
@@ -33,7 +27,7 @@
 
 ## Commit : 
 
-    commits the changes / staged files into commited stage
+commits the changes / staged files into commited stage
     
     ```git
        
@@ -45,7 +39,7 @@
 
 ## Push :
 
-    push all the commited files to the remote repository
+push all the commited files to the remote repository
 
 
    ```git
@@ -55,11 +49,11 @@
 
     ```
     
-     If you use upstream for the first git push, from the next we only use
+If you use upstream for the first git push, from the next we only use
 
     ```git
 
        git push
 
     ``` 
-    and avoid writing origin master
+and you can avoid writing long commands like git push origin master
