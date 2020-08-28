@@ -15,12 +15,12 @@ Initialize an empty Git repository
         git init
 
     ```
-    
+
     ```javascript
-if (isAwesome){
-  return true
-}
-```
+        if (isAwesome){
+        return true
+    }
+    ```
 
 ## Add :
 
