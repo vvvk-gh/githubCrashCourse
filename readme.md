@@ -47,5 +47,4 @@ If you use upstream for the first git push, from the next we only use
      git push
 ``` 
 and you can avoid writing long commands like git push origin master
-where origin : remote name
-master : branch name
+where origin : remote name , master : branch name
