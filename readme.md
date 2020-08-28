@@ -10,17 +10,9 @@ Clone the existing remote repository code to local directory
 ## Init :
 Initialize an empty Git repository
     
-    ```cmd
-
-        git init
-
-    ```
-
-    ```javascript
-        if (isAwesome){
-        return true
-    }
-    ```
+```cmd
+git init
+```
 
 ## Add :
 
