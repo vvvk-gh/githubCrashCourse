@@ -5,7 +5,8 @@
 Clone the existing remote repository code to local directory 
 
 ```cmd
-    git clone <git repo url>
+    git clone <remote-repo-url
+    git clone -b <branchname> <remote-repo-url>  #clones the specific branch code from the remote.
  ```
 
 ## Init 
@@ -75,9 +76,9 @@ Shows the history of commits
 Shows the current branch you are on in / shows all the branches
 
 ```cmd
-    git branch //return current branch
-    git branch -a //for all branches
-    git branch -d <branchname> //deletes that branch
+    git branch    # return current branch
+    git branch -a # for all branches
+    git branch -d <branchname> # deletes that branch
 ```
 
 ### Changing Branching
