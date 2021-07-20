@@ -1,20 +1,22 @@
 # Git Basics Commands
 
 ## Clone 
+
 Clone the existing remote repository code to local directory 
 
 ```cmd
     git clone <git repo url>
  ```
 
-## Init :
+## Init 
+
 Initialize an empty Git repository
     
 ```cmd
     git init
 ```
 
-## Add :
+## Add
 
 adds the modified file/files to the staging 
     
@@ -24,7 +26,7 @@ adds the modified file/files to the staging
     git add -u  # all the modified files
 ```
 
-## Commit : 
+## Commit
 
 commits the changes / staged files into commited stage
     
@@ -34,7 +36,7 @@ commits the changes / staged files into commited stage
     git commit -am "heading" // addes the modified files and commit them   
 ```
 
-## Push :
+## Push 
 
 push all the commited files to the remote repository
 
@@ -80,7 +82,7 @@ Shows the current branch you are on in / shows all the branches
 
 ### Changing Branching
 
-creates a new branch / switches to a new branch 
+Creates a new branch / switches to a new branch 
 
 ```cmd
     git checkout -b <branch name>  //new branch
@@ -91,9 +93,9 @@ creates a new branch / switches to a new branch
 ## Diff
 
 ```cmd
-    git diff # gives the diff btw the modified and the commited and once staged this cmd doesn't work
-    git diff --staged   # gives the biff btw the staged and the last commit.
     git diff <filename>  # only to the specified file
+    git diff # gives the diff btw the modified and the commited and once staged this cmd doesn't work.
+    git diff --staged   # gives the biff btw the staged and the last commit.
 ```
 
 ## Pull 
