@@ -67,6 +67,7 @@ Shows the history of commits
 ```cmd
     git log
     git log --online 
+    git log --online --graph -all # shows the commits of all the branches in form 
 ```
 
 ## Branching
@@ -76,9 +77,14 @@ Shows the history of commits
 Shows the current branch you are on in / shows all the branches
 
 ```cmd
-    git branch    # return current branch
-    git branch -a # for all branches
-    git branch -d <branchname> # deletes that branch
+    git branch     # return current branch
+    git branch -v  # shows the current branch along with latest commit id and msg.
+    
+    git branch -a  # show all branches
+    
+    git branch -d <branchname> # deletes that branch #only deltes if there is a merged branch
+    git brancg -D <branchname> # force deletes the branch even though its not merged.
+    
 ```
 
 ### Changing Branching
@@ -109,11 +115,33 @@ Pulls all the commited code from the mentioned branch to your current repository
 
 ## Merge
 
-Merges the one branch committed code into an other branche 
+Merges the one branch committed code into an other branch
  
 
 ```cmd
     git merge <branchname>
+```
+merges can be of 2 types.
+
+ - Fast forwarding : The head pointer will be moved from the master to the latest commits of the b1 its not have no extra commits and the only 1 step behind common ancestor.
+ - Recursive Merging : This happens when they have more code changes/versions/commits from the common ancestor and these forms a new merge commit.
+
+## Move and Remove files 
+```cmd
+    mv <source_file> <dest_file> # git tracks it but we have to stage those changes again (2-step).
+    git mv <source_file> <dest_file> # git adds the changes to the staging automatically (1-step).
+    rm <filename>   #git tracks it but we have to stage those changes again (2-step).
+    git rm <filename> # git adds the changes to the staging automatically (1-step).
+
+```
+## Unstaging
+```cmd
+    git restore --staged <filename>
+```
+## Unmodifying 
+
+```cmd
+    git checkout --filename.txt  # takes you to the last commit.
 ```
 
 ## Stages of a flie
