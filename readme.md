@@ -67,7 +67,8 @@ Shows the history of commits
 ```cmd
     git log
     git log --online 
-    git log --online --graph -all # shows the commits of all the branches in form 
+    git log --online --graph -all # shows the commits of all the branches in a graph.
+    
 ```
 
 ## Branching
@@ -124,7 +125,27 @@ Merges the one branch committed code into an other branch
 merges can be of 2 types.
 
  - Fast forwarding : The head pointer will be moved from the master to the latest commits of the b1 its not have no extra commits and the only 1 step behind common ancestor.
+ 
+    - <img width="412" alt="bbm" src="https://user-images.githubusercontent.com/22676852/126391376-2ca1a597-ec75-4dc5-a558-da4f78ba75c0.PNG">
+      
+    - <img width="412" alt="abm" src="https://user-images.githubusercontent.com/22676852/126391386-d25fad14-f462-44b1-8fd8-134f046be3ff.PNG">
+
  - Recursive Merging : This happens when they have more code changes/versions/commits from the common ancestor and these forms a new merge commit.
+ 
+    - intial stage
+        
+        - <img width="412" alt="arm-1" src="https://user-images.githubusercontent.com/22676852/126392507-d9f88201-c742-42c3-b1bb-60e8572a6bea.PNG">
+
+        
+    - finding common ancestor 
+    
+        - <img width="412" alt="arm" src="https://user-images.githubusercontent.com/22676852/126392505-5ec7d50c-5afa-42e4-8b07-8ac64cfe5f43.PNG">
+
+        
+    -after merge
+    
+      - <img width="412" alt="arm_final" src="https://user-images.githubusercontent.com/22676852/126392514-8eddccca-cc70-4dbc-a672-b95a90424342.PNG">
+
 
 ## Move and Remove files 
 ```cmd
