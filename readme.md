@@ -130,7 +130,7 @@ merges can be of 2 types.
       
     - <img width="412" alt="abm" src="https://user-images.githubusercontent.com/22676852/126391386-d25fad14-f462-44b1-8fd8-134f046be3ff.PNG">
 
- - Recursive Merging : This happens when they have more code changes/versions/commits from the common ancestor and these forms a new merge commit.
+ - Recursive Merging : This happens when they have more code changes/versions/commits from the common ancestor in the masster and these forms a new merge commit.
  
     - intial stage
         
