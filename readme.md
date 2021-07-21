@@ -106,12 +106,23 @@ Creates a new branch / switches to a new branch
     git diff --staged   # gives the biff btw the staged and the last commit.
 ```
 
+## Fetch 
+
+Fetchs the all the latest code on our branch and downloades into the local repo and not working directory 
+inorder to do that we need to merge.
+
+```cmd
+    git fetch
+    git merge
+```
+
 ## Pull 
 
 Pulls all the commited code from the mentioned branch to your current repository
 
 ```cmd
-    git pull <branchname>
+    git pull <branchname> 
+    git pull = git fetch + git merge.
 ```
 
 ## Move and Remove files 
