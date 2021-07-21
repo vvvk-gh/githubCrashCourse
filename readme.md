@@ -114,6 +114,42 @@ Pulls all the commited code from the mentioned branch to your current repository
     git pull <branchname>
 ```
 
+## Move and Remove files 
+```cmd
+    mv <source_file> <dest_file> # git tracks it but we have to stage those changes again (2-step).
+    git mv <source_file> <dest_file> # git adds the changes to the staging automatically (1-step).
+    rm <filename>   #git tracks it but we have to stage those changes again (2-step).
+    git rm <filename> # git adds the changes to the staging automatically (1-step).
+
+```
+## Unstaging
+```cmd
+    git restore --staged <filename>
+```
+## Unmodifying 
+
+```cmd
+    git checkout --filename.txt  # takes you to the last commit.
+```
+
+## Stages of a flie
+- untracked : New file is created (U in VS code)
+- unmodified : Already present in the local repo but no changes were made.
+- modified : When we made some changes to the file.
+- commited : Once the changes are working we will create a new version.
+
+<img width="470" alt="stages of file" src="https://user-images.githubusercontent.com/22676852/126295806-d72cc46b-9ea0-436d-b600-aa7a3c471681.PNG">
+
+## Remotes 
+```cmd
+    git remote add <remote_name> <repo_url> by default we will add `origin` as remote name 
+            git remote add https://gitproject_url.git
+
+   git remote -v  # to check your remotes available  
+   git remote remove <remote-name> # to delete a remote 
+```
+   
+
 ## Merge
 
 Merges the one branch committed code into an other branch
@@ -147,30 +183,3 @@ merges can be of 2 types.
     -after merge
     
       - <img width="412" alt="arm_final" src="https://user-images.githubusercontent.com/22676852/126392514-8eddccca-cc70-4dbc-a672-b95a90424342.PNG">
-
-
-## Move and Remove files 
-```cmd
-    mv <source_file> <dest_file> # git tracks it but we have to stage those changes again (2-step).
-    git mv <source_file> <dest_file> # git adds the changes to the staging automatically (1-step).
-    rm <filename>   #git tracks it but we have to stage those changes again (2-step).
-    git rm <filename> # git adds the changes to the staging automatically (1-step).
-
-```
-## Unstaging
-```cmd
-    git restore --staged <filename>
-```
-## Unmodifying 
-
-```cmd
-    git checkout --filename.txt  # takes you to the last commit.
-```
-
-## Stages of a flie
-- untracked : New file is created (U in VS code)
-- unmodified : Already present in the local repo but no changes were made.
-- modified : When we made some changes to the file.
-- commited : Once the changes are working we will create a new version.
-
-<img width="470" alt="stages of file" src="https://user-images.githubusercontent.com/22676852/126295806-d72cc46b-9ea0-436d-b600-aa7a3c471681.PNG">
