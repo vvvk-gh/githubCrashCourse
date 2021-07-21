@@ -124,13 +124,15 @@ Merges the one branch committed code into an other branch
 ```
 merges can be of 2 types.
 
- - Fast forwarding : The head pointer will be moved from the master to the latest commits of the b1 its master have no extra commits and the only 1 step behind common ancestor.
+ - Fast forwarding : The head pointer will be moved from the master to the latest commits of the b1
+                     as its master have no extra commits and the only 1 step behind common ancestor.
  
     - <img width="412" alt="bbm" src="https://user-images.githubusercontent.com/22676852/126391376-2ca1a597-ec75-4dc5-a558-da4f78ba75c0.PNG">
       
     - <img width="412" alt="abm" src="https://user-images.githubusercontent.com/22676852/126391386-d25fad14-f462-44b1-8fd8-134f046be3ff.PNG">
 
- - Recursive Merging : This happens when they have more code changes/versions/commits from the common ancestor in the masster and these forms a new merge commit.
+ - Recursive Merging : This happens when they have more code changes/versions/commits in the master from the common ancestor and thus forms a 3 way merging 
+                       which results in forming a new merge commit.
  
     - intial stage
         
