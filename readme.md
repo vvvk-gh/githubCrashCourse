@@ -124,7 +124,7 @@ Merges the one branch committed code into an other branch
 ```
 merges can be of 2 types.
 
- - Fast forwarding : The head pointer will be moved from the master to the latest commits of the b1 its not have no extra commits and the only 1 step behind common ancestor.
+ - Fast forwarding : The head pointer will be moved from the master to the latest commits of the b1 its master have no extra commits and the only 1 step behind common ancestor.
  
     - <img width="412" alt="bbm" src="https://user-images.githubusercontent.com/22676852/126391376-2ca1a597-ec75-4dc5-a558-da4f78ba75c0.PNG">
       
