@@ -194,3 +194,26 @@ merges can be of 2 types.
     -after merge
     
       - <img width="412" alt="arm_final" src="https://user-images.githubusercontent.com/22676852/126392514-8eddccca-cc70-4dbc-a672-b95a90424342.PNG">
+
+## Past Commit
+
+- git checkout <commit_id> : shows the code at that specific point.
+- git switch -  : this will take you back to current commit id to head commit in the project (undo of git checkout).
+- git switc -c <branch_name> : will create a new branch from that particular commit.
+
+
+## Git Revert 
+- git revert <commit_id> : will revert those changes and a new commit takes place immediately with those removed changes.
+- git revert -n <commit_id> : the changes are removed but its upto you when you want to commit the code. 
+- git revert --abort : aborts the whole revert. 
+
+## Git reset : 
+git reset --soft <commit_id> : will reset your code to that point and you can come back to its original current commit by using git clean command. 
+git reset --hard <commit_id> : No coming back once you hard reset the code. the code will be reseted to the mentioned commit id.
+
+## Deleting the uppper most commit from the remote : 
+- First we need to hard reset to the particular commit id and push it forcefully using `git push -f origin <branch_name>` 
+
+## Cherry Pick commits 
+- git cherry-pick <commit_id> : picks the changes from specific commit from any branch and merge with another branch.
+- you should be on the branch on which you want to merge these changes. if you want to add B branch commit to the A branch be on A branch and execute the command
